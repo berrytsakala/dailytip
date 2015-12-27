@@ -11,16 +11,11 @@ Fortune cookie's files are too complicated to edit!
  1. put a text file, (line delimited), in $HOME/.dailytip.txt   (configurable via .dailytiprc)
  1. add to your shell's rc file (e.g. .bashrc) the command "dailytip.py"
 
-## Usage:
-Just bring your text file, one sentence per line,
-and add command in your shell rc file (e.g. .bashrc)
-
 ## Notes:
 This process is not the most efficient: it'll load all the lines and choose a random one. for files under 10mb, in modern desktops, it goes unnoticed.
 
 ## Todo:
- - Predefined line separator symbols support
- - user-defined line separators via command line 
- 
+ - deal with long lines
+
 
 _* pun intended
