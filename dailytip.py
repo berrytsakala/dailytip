@@ -12,7 +12,7 @@ conf = {
 	"vertical_line": "/",
 	"lines_after": 2,
 	'console_encoding': 'utf-8',
-	'manual_line_break_delimiter': r"\n",
+	"manual_line_break_delimiter": "\\n",
 	"tipsfile": "~/.dailytip.txt",
 	'tipsfile': '~/.dailytip',
 	'debug': True
