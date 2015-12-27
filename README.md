@@ -2,7 +2,14 @@
 A humane alternative to the monstrous fortune-cookie*: prints at login a random line from a text file
 
 ## Raison d'être:
-Fortune cookie requires a compiler(!) and manually doing funny stuff to make it work. And even after doing everything it didn't work! and the documentation is hard-to get. Seriously?
+Fortune cookie's files are too complicated to edit!
+
+## Install
+ 1. copy dailytip.py to your $PATH, e.g. /usr/local/bin
+ 1. chmod a+x /usr/local/bin/dailytip.py
+ 1. copy .dailytiprc to your $HOME
+ 1. put a text file, (line delimited), in $HOME/.dailytip.txt   (configurable via .dailytiprc)
+ 1. add to your shell's rc file (e.g. .bashrc) the command "dailytip.py"
 
 ## Usage:
 Just bring your text file, one sentence per line,
